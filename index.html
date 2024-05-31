@@ -4,18 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' 'sha256-BHF2wjYzuFl1eF3qjlsAq+xvWjfztG2awREfjczVAIQ='; script-src 'self' 'sha256-6GFZjgP8rd6OHbLQAdEHCPBmNWb5aZRO1LA9AiwCdHI='; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'none'">
   <meta name="referrer" content="no-referrer">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+  <script src="/theme.js"></script>
+  <script type="module" src="/button.js"></script>
   <title>Articles | Madaidan's Insecurities</title>
 </head>
 
 <body>
+  <button class="theme-toggle">🌓</button>
   <h1>Security & Privacy Evaluations</h1>
 
   <p>
-     Below lies a list of analyses regarding security and privacy focused topics. The security assessments make no
+     Below lies a list of analyses regarding security and privacy-focused topics. The security assessments make no
      attempt at evaluating security based on the number of former vulnerabilities in a particular program. Instead,
      criteria involve the software's overall security posture and ease of exploitation. Primarily, the assessments
      include an analysis of the software's attack surface exposure, as well as the adoption of modern defensive
@@ -37,7 +39,6 @@
         <li><a href="firefox-chromium.html">Firefox and Chromium</a></li>
         <li><a href="linux.html">Linux</a></li>
         <li><a href="linux-phones.html">Linux Phones</a></li>
-        <li><a href="openbsd.html">OpenBSD</a></li>
       </ul>
     </div>
 
@@ -88,7 +89,5 @@
 
   <br><br>
 
-  <button class="dark-mode-toggle">🌓</button>
-  <script type="text/javascript" src="toggle.js"></script>
 </body>
 </html>
